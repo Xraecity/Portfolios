@@ -1,0 +1,193 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+ul li, ol li{
+    list-style: none;
+}
+section{
+    background-image: url('images/background/map_north_america.jpg');
+    margin: 0 auto;
+    position:absolute;
+    height: 1000px;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(246,246,236,1);
+    width: 100%;
+    padding: 10px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+
+}
+.header-menu{
+    position: relative;
+    top: -20px;
+}
+nav{
+    position: relative;
+    opacity: 0.7;
+}
+nav ul li img{
+    margin: 9px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo_riteway{
+    border: dotted 1px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+#logo{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    right: -70px;
+    margin: 20px;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col-2{
+    position: relative;
+    width: 20%;
+}
+.col-8{
+    position: relative;
+    width: 70%;
+    top: 110px;
+    margin: 0 auto;
+    right: 80px;
+}
+.col-8 ul li a{
+    text-decoration: none;
+    color: rgba(11,102,81,0.8);
+    font-size: 17px;
+}
+form{
+    position: absolute;
+    top: 10px;
+    right: -990px;
+}
+.searchLb{
+    visibility: hidden;
+}
+#search{
+    padding: 4px;
+    opacity: 0.7;
+    position: relative;
+}
+.search-icon{
+    padding: 4.4px;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    position: relative;
+    right: 9px;
+    top: 1px;
+}
+.socials{
+    border: 10px solid  rgb(62, 61, 61);
+    border-radius: 100%;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    font-size: 10px;
+    padding: 1px;
+    position: relative;
+    right: 50px;
+    top: 24px;
+
+}
+#search:focus{
+    border: red 2px solid;
+}
+#banner{
+    position: relative;
+    width: 100%;
+    display: flex;
+    right: 40px;
+}
+ul{
+    display: flex;
+    width: 100%;
+}
+ul li img{
+    width: 100%;
+}
+
+#goal{
+    background-image: url('images/background/map_north_america.jpg');
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    position: relative;
+    height: 300px;
+    top: -4px;
+}
+#goal p{
+    color: rgba(11,102,81,0.8);
+    margin: 0 auto;
+    width: 80%;
+    opacity: 0.8;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+small{
+    text-align: center;
+}
+.content{
+    background-color: rgba(11,102,81,0.8);
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+
+#prideMonth{
+    width: 100%;
+    transform: rotate(-10deg);
+    box-shadow: 4px 3px 4px 3px black;
+}
+.pride-img{
+    width: 30%;
+}
+.pride-caption{
+    width: 60%;
+}
+
+.pride-caption h1, p{
+    color: white;
+    padding: 4px;
+    margin: 10px;
+}
+.pride-caption h1{
+    font-size: 30px;
+    width: 70%;
+}.pride-caption p{
+    font-size: 20px;
+    width: 70%;
+}
+#gallery{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+}

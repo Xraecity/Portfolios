@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/slideshow.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/theme/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@600&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>Website</title>
+</head>
+<body> 
+    <header>
+        <head>
+              
+            <div class="menu" id="">
+                <div class="row">
+                    <div class="col-lg-2">
+                    <img src="images/logo.png" alt="" class="logo-img" width="100px">
+                </div>
+                <div class="col-lg-8">
+                    <ul class="action" id="outline">
+                        <li>
+                            <button class="btn">Sign-in</button>
+                            <button class="btn">Sign-up</button>
+                        </li>
+                    </ul>
+                    
+              <!-- Use any element to open the sidenav -->
+              <div class="bar" onclick="openNav()" >&#9776; Menu</div>
+                </div>
+            </div>
+                
+            </div>
+            <div id="limestrip"></div>
+        </head>
+        
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="images/logo.png" alt="" class="logo-img" width="50%">
+            <hr>
+            <br>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <main id="main">              
+            <div class="slideshow-container">
+                <div class="backgroundEnd">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="images/pexels-alteredsnaps-12623606.jpg" class="slide-img" width="100%">
+                    <div class="headingOne">
+                        <span class="partDividentOne">XRAECITY</span> <span class="partDividentTwo">COMPUTERS</span>
+                    </div>
+                    <p class="captionHead">We are Xracity Computer LTD</p>
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/pexels-skylar-kang-6044198.jpg" class="slide-img" width="100%">
+                  <h1 class="headingOne"><span class="partDividentOne">WE</span> <span class="partDividentTwo">DEVELOPE</span></h1>
+                    <p class="captionHead">We Create web Application</p>
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/pexels-lisa-fotios-1413906.jpg" class="slide-img" width="100%">
+                  <h1 class="headingOne"><span class="partDividentOne">WE</span> <span class="partDividentTwo">DESIGN</span></h1>
+                    <p class="captionHead">We create graphic design</p>
+                </div>
+              </div>    
+              </div>
+              <br>
+            </main>
+        </header>
+<hr>
+            <div class="container">
+                        <div class="container-2-box box-1">
+                            <h3 style="padding: 10px;">About us</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quisquam aut voluptas quia, nostrum quam commodi. Facere harum, ipsum eos libero, molestias voluptate eaque similique temporibus nostrum tenetur sequi corrupti?</p>
+                        </div>
+                        <div class="container-2-box box-2">
+                            <h2>our Mission</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quisquam aut voluptas quia, nostrum quam commodi. Facere harum, ipsum eos libero, molestias voluptate eaque similique temporibus nostrum tenetur sequi corrupti?</p>
+                        </div> 
+                        <div class="container-2-box box-3">
+                            <h2>our Value</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quisquam aut voluptas quia, nostrum quam commodi. Facere harum, ipsum eos libero, molestias voluptate eaque similique temporibus nostrum tenetur sequi corrupti?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <caption>
+                <h1>gdgd</h1>
+            </caption>
+
+                
+    <link rel="stylesheet" href="css/slideshow.css">
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 8000); // Change image every 2 seconds
+        }
+        
+     
+</script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+</html>
