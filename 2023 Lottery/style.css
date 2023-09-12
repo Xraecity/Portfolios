@@ -1,0 +1,74 @@
+*{
+    font-family: candara;
+    font-weight: bolder;
+}
+/* big screen  */
+@media screen and (min-width: 764px) {
+    section{
+        width: 20%;
+        border: 2px dodgerblue solid;
+    }
+    h1,h2,h3,h4,h5{
+    background-color: dodgerblue;
+    }#inputGroupPrepend{
+        background-color: dodgerblue;
+    }
+}
+/* small screen  */
+@media screen and (max-width: 865px) {
+    section{
+        width: 80% !important;
+        border: 2px rgb(46, 66, 0) solid;
+    }
+    h1,h2,h3,h4,h5{
+    background-color: rgb(46, 66, 0);
+    }#inputGroupPrepend{
+        background-color: rgb(46, 66, 0);
+    }
+    .btn-primary{
+        background-color: rgb(46, 66, 0) !important;
+    }
+}
+section{
+    margin: 50px auto ;
+    padding: 50px ;
+
+}
+    
+form{
+    width: 100% !important;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+border: 2px ridge transparent;
+padding: 10px;
+border-radius: 10px 0px 10px;
+color: #ffff !important;
+font-weight: bolder !important;
+}
+.error_msg{
+    color: red;
+    display: none;
+}
+#inputGroupPrepend{
+    height: 3em !important;
+    color: #ffff;
+}
+.gender{
+    padding: 30px;
+}
+input[type = "radio"]{
+    margin: 10px;
+    cursor: pointer;
+}
+.btns{
+    padding: 10px;
+    margin: 20px;
+}
+.line{
+    border-left: 6px double #ffff;
+    position: relative;
+    height: 3em;
+    top: 55px;
+    right: -30px;
+}

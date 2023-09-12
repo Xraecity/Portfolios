@@ -1,0 +1,81 @@
+/* On smaller screens, where width is less than 768 pixels, show the hamburger icon and hide the menu */
+@media screen and (max-width: 768px) {
+    *{
+        transition: margin-left .5s;
+        padding: 20px;
+      }
+
+    .bar {
+      display: block !important;
+      color: white;
+      position: relative !important;
+        right: -180px !important;
+        top: 60px !important;
+        cursor: pointer;
+        float: right;
+    }
+  .mySlides{
+    width: 100% !important;
+  }
+    .headingOne{
+        bottom: 200px !important;
+        font-size: 20px !important;
+    }
+    .captionHead{
+    font-size: 20px !important;
+    position: relative;
+    text-align: center !important;
+    bottom: 160px !important;
+    }
+    .partDividentTwo{
+        padding: 1px !important;
+        font-size: 30px !important;
+        text-align: justify !important;
+        box-shadow: none !important;
+    }
+    .partDividentOne{
+        font-size: 30px !important;
+    }
+    
+      .logo-img{
+            left: 30px !important;
+        }
+  
+  
+    #outline{
+        border: 0px solid transparent !important;
+        background-color: transparent !important;
+    }
+    .action{
+        float: right;
+        padding: 10px !important;
+        right: 10px !important;
+
+    }
+
+    .slide-img{
+        width:100%; height: 300px !important; opacity: 0.3;
+    }
+  
+  .card{
+    width: 100%;
+    /* display: flex; */
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    }
+
+  
