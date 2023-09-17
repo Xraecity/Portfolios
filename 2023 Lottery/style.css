@@ -5,28 +5,40 @@
 /* big screen  */
 @media screen and (min-width: 764px) {
     section{
-        width: 20%;
+        width: 30%;
         border: 2px dodgerblue solid;
     }
-    h1,h2,h3,h4,h5{
+    h2{
     background-color: dodgerblue;
+    }
+    h3{
+    background-color: rgb(135, 135, 135);
     }#inputGroupPrepend{
         background-color: dodgerblue;
+    }
+    #inputGroupPrepend2{
+        background-color: rgb(135, 135, 135);
     }
 }
 /* small screen  */
 @media screen and (max-width: 865px) {
     section{
-        width: 80% !important;
+        width: 90% !important;
         border: 2px rgb(46, 66, 0) solid;
     }
-    h1,h2,h3,h4,h5{
+    h2{
     background-color: rgb(46, 66, 0);
+    }
+    h3{
+    background-color: rgb(135, 135, 135);
     }#inputGroupPrepend{
         background-color: rgb(46, 66, 0);
     }
     .btn-primary{
         background-color: rgb(46, 66, 0) !important;
+    }
+    #inputGroupPrepend2{
+        background-color: rgb(135, 135, 135);
     }
 }
 section{
@@ -49,8 +61,15 @@ font-weight: bolder !important;
 .error_msg{
     color: red;
     display: none;
+}#invalid{
+    color: red;
+    display: none;
 }
 #inputGroupPrepend{
+    height: 3em !important;
+    color: #ffff;
+}
+#inputGroupPrepend2{
     height: 3em !important;
     color: #ffff;
 }
@@ -71,4 +90,26 @@ input[type = "radio"]{
     height: 3em;
     top: 55px;
     right: -30px;
+}
+#subtn{
+    display: none;
+}
+#counter{
+    background-color: rgb(135, 135, 135) !important;
+    border-radius: 100% !important;
+    width: 8%;
+    text-align: center;
+    height: 2em;
+    color: #ffff;
+    border: 2px rgb(135, 135, 135) solid !important;
+}
+.inputValue{
+    border-bottom: 2px rgb(135, 135, 135) solid !important;
+    background-color: none !important;
+}
+#lotteryList{
+    display: none;
+}
+#agree:hover{
+    cursor: pointer;
 }
