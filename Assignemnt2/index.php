@@ -55,7 +55,7 @@ $posts = $db->query($selectQuery);
         <label for="content">Content:</label><br>
         <textarea id="content" name="content" rows="4" cols="50" required></textarea><br><br>
         
-        <input type="submit" name="submit" value="Submit">
+        <button type="submit" name="submit">Submit</button>
     </form>
     
     <!-- Display existing blog posts -->
