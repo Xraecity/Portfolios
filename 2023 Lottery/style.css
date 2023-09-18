@@ -5,7 +5,7 @@
 /* big screen  */
 @media screen and (min-width: 764px) {
     section{
-        width: 30%;
+        width: 50%;
         border: 2px dodgerblue solid;
     }
     h2{
